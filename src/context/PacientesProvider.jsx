@@ -1,5 +1,6 @@
 import { createContext, useState, useEffect } from "react";
 import clienteAxios from "../config/axios";
+import useAuth from '../hooks/useAuth';
 
 const PacientesContext = createContext();
 
